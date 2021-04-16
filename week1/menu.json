@@ -1,0 +1,64 @@
+{
+    "menu": [{
+        "appetizers": [{
+            "nachoes": {
+                "name": "nachoes",
+                "ingredients": ["cheese", "pico de gallo", "shredded lettuce"],
+                "description": "mexican dish."
+            },
+            "fried pickles": {
+                "name": "fried pickles",
+                "ingredients": ["flour", "egg", "oil"],
+                "description": "a great source of sodium"
+            }
+        }],
+        "cold sandwiches": [{
+            "turkey club": {
+                "name": "turkey club",
+                "ingredients": ["turkey", "tomatoes", "lettuce"],
+                "description": "american all-rounder"
+            },
+            "chicken salad sandwich": {
+                "name": "chicken salad sandwich",
+                "ingredients": ["chicken", "mayonnaise", "chopped celery"],
+                "description": "family picnic original"
+            }
+        }],
+        "hot sandwiches": [{
+            "ham & cheese": {
+                "name": "ham & cheese",
+                "ingredients": ["ham", "cheese", "salt & pepper"],
+                "description": "american classic"
+            },
+            "grilled cheese": {
+                "name": "grilled cheese",
+                "ingredients": ["american cheese", "butter", "pimento cheese"],
+                "description": "cheesey goodness"
+            }
+        }],
+        "desserts": [{
+            "strawberry cake": {
+                "name": "strawberry cake",
+                "ingredients": ["strawberries", "whipped cream", "strawberry icing"],
+                "description": "delicious treat"
+            },
+            "yogurt parfait": {
+                "name": "yogurt parfait",
+                "ingredients": ["yogurt", "berries", "oranges"],
+                "decription": "healthy treat"
+            }
+        }],
+        "drinks": {
+            "diet coke": {
+                "name": "diet coke",
+                "ingredients": ["sodium", "asparteme", "water"],
+                "description": "a good substitute for a healthy diet"
+            },
+            "diet sprite": {
+                "name": "sprite",
+                "ingredients": ["sodium", "asparteme", "water"],
+                "description": "healthier carbonated version of it's orginal version"
+            }
+        }
+    }]
+}
