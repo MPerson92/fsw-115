@@ -1,13 +1,11 @@
-let submit = document.getElementById("submit");
+let button = document.getElementById("button");
     
     // let data = retrieve();
-submit.addEventListener("click", (event) => {
+    button.addEventListener("click", (event) => {
     event.preventDefault();
     axios.get('http://api.bryanuniversity.edu/mikey1/list')
     .then(response => {
         for(let i = 0; i < response.data.length; i++){
-            range(parseInt(document.getElementById("one").value), 
-            parseInt(document.getElementById("two").value));
             const h1 = document.createElement('h1');
             h1.textContent = response.data[i].name;
             document.body.appendChild(h1);
@@ -27,7 +25,6 @@ submit.addEventListener("click", (event) => {
             h33.textContent = response.data[i].isComplete;
             document.body.appendChild(h1);
             console.log(response.data[i].isComplete);
-            
         }
     }).catch(error => console.log(error));
 })
