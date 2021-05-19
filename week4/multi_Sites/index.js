@@ -27,10 +27,10 @@ submit.addEventListener("click", (event) => {
             h33.textContent = response.data[i].isComplete;
             document.body.appendChild(h1);
             console.log(response.data[i].isComplete);
-        };
-    }
-    .catch(error => console.log(error);
-});
+            
+        }
+    }).catch(error => console.log(error));
+})
 
 
 

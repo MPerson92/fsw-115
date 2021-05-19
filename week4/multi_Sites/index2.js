@@ -1,10 +1,10 @@
-axios.get('http://api.bryanuniversity.edu/mikey2/list')
+
 let submit = document.getElementById("submit");
     
     // let data = retrieve();
 submit.addEventListener("click", (event) => {
     event.preventDefault();
-    axios.get('http://api.bryanuniversity.edu/mikey1/list')
+    axios.get('http://api.bryanuniversity.edu/mikey2/list')
     .then(response => {
         for(let i = 0; i < response.data.length; i++){
             range(parseInt(document.getElementById("one").value), 
@@ -29,6 +29,6 @@ submit.addEventListener("click", (event) => {
             document.body.appendChild(h1);
             console.log(response.data[i].isComplete);
         };
-    }
-    .catch(error => console.log(error);
+    })
+    .catch(error => console.log(error));
 });
