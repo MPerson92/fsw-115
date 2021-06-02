@@ -1,5 +1,5 @@
 body{
-    background-image: url(/free-nature-images.jpg);
+    background-image: url(free-nature-images.jpg);
     background-size: cover;
     width: 100%;
     color: blue;
@@ -8,10 +8,10 @@ body{
 
 @media only screen and (min-width: 768px){
     body{
-        background-image: url(/free-nature-images.jpg);
+        background-image: url(free-nature-images.jpg);
         background-size: cover;
         width: 100%;
-        color: aliceblue;
+        color: blue;
         font-size: 24px;
     };
 };
